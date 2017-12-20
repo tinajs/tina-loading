@@ -41,7 +41,7 @@ Or simply use ``$loading()`` with ``Promise.prototype.finally``:
 import { Page } from '@tinajs/tina'
 import { fetchData } from '../api'
 Page({
-  async onLoad () {
+  onLoad () {
     fetchData()
       .then((data) => {
         // ...balabala
