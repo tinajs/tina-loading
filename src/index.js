@@ -5,14 +5,14 @@ export default function mixin () {
   let stack = 0
 
   function loading () {
-    loading.show()
-    return loading.hide
+    loading.push()
+    return loading.pop
   }
-  loading.show = function show () {
+  loading.push = function push () {
     wxio.showNavigationBarLoading()
     ++stack
   }
-  loading.hide = function hide () {
+  loading.pop = function pop () {
     if (--stack > 0) {
       return
     }
