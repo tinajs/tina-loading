@@ -1,4 +1,5 @@
 # tina-loading
+> Loading plugin for [Tina](https://github.com/tinajs/tina)
 
 ## Setup
 1. Install from npm
