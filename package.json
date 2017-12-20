@@ -27,11 +27,8 @@
     "rollup-plugin-commonjs": "^8.2.6",
     "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-resolve": "^3.0.0",
-    "uglify-js": "^3.2.1",
-    "wxio": "^0.0.1"
+    "uglify-js": "^3.2.1"
   },
-  "peerDependencies": {
-    "wxio": "0.x"
-  },
+  "peerDependencies": {},
   "dependencies": {}
 }

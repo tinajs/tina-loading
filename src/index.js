@@ -1,4 +1,4 @@
-import wxio from 'wxio'
+import globals from './globals'
 
 export default function mixin () {
   // cache
@@ -9,14 +9,14 @@ export default function mixin () {
     return loading.pop
   }
   loading.push = function push () {
-    wxio.showNavigationBarLoading()
+    wx.showNavigationBarLoading()
     ++stack
   }
   loading.pop = function pop () {
     if (--stack > 0) {
       return
     }
-    wxio.hideNavigationBarLoading()
+    wx.hideNavigationBarLoading()
   }
   loading.isLoading = function isLoading () {
     return stack > 0

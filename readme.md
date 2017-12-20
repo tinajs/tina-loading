@@ -3,10 +3,6 @@
 ## Setup
 1. Install from npm
 ```bash
-# ensure wxio is installed
-npm i -save wxio
-
-# install
 npm i --save @tinajs/tina-loading
 ```
 
