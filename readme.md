@@ -23,7 +23,7 @@ Normally use ``$loading.push()`` and ``$loading.pop()`` methods:
 // pages/some-page.js
 import { Page } from '@tinajs/tina'
 import { fetchData } from '../api'
-Page({
+Page.define({
   async onLoad () {
     this.$loading.push()
     try {
@@ -41,7 +41,7 @@ Or simply use ``$loading()`` with ``Promise.prototype.finally``:
 // pages/some-page.js
 import { Page } from '@tinajs/tina'
 import { fetchData } from '../api'
-Page({
+Page.define({
   onLoad () {
     fetchData()
       .then((data) => {
