@@ -1,5 +1,5 @@
 # tina-loading
-> Loading plugin for [Tina](https://github.com/tinajs/tina)
+> :hourglass_flowing_sand: Loading plugin for [Tina](https://github.com/tinajs/tina)
 
 ## Setup
 1. Install from npm
@@ -47,7 +47,7 @@ Page.define({
       .then((data) => {
         // ...balabala
       })
-      // magic here
+      // trick here
       .finally(this.$loading())
   },
 })
