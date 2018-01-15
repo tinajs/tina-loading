@@ -1,6 +1,10 @@
 # tina-loading
 > :hourglass_flowing_sand: Loading plugin for [Tina.js](https://github.com/tinajs/tina)
 
+[![npm](https://img.shields.io/npm/v/@tinajs/tina-loading.svg?style=flat-square)](https://www.npmjs.com/package/@tinajs/tina-loading)
+[![license](https://img.shields.io/github/license/tinajs/tina-loading.svg?style=flat-square)](./LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ## Setup
 1. Install from npm
 ```bash
