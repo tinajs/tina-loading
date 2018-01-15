@@ -1,6 +1,6 @@
 {
   "name": "@tinajs/tina-loading",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Loading plugin for Tina.js",
   "main": "dist/tina-loading.js",
   "author": "yelo",
