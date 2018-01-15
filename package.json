@@ -1,10 +1,21 @@
 {
   "name": "@tinajs/tina-loading",
   "version": "0.1.0",
-  "description": "",
+  "description": "Loading plugin for Tina.js",
   "main": "dist/tina-loading.js",
   "author": "yelo",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "url": "tinajs/tina-loading",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinajs/tina-loading/issues"
+  },
+  "homepage": "https://github.com/tinajs/tina-loading#readme",
   "scripts": {
     "start": "rollup -c -w",
     "clean": "rimraf ./dist",
