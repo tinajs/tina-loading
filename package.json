@@ -5,6 +5,9 @@
   "main": "dist/tina-loading.js",
   "author": "yelo",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
