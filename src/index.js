@@ -1,6 +1,6 @@
 import globals from './globals'
 
-export default function mixin () {
+export function mixin () {
   // cache
   let stack = 0
 
@@ -29,3 +29,12 @@ export default function mixin () {
     created: setup,
   }
 }
+
+const Plugin = {
+  install ({ Page, Component }) {
+    Page.mixin(mixin())
+    Component.mixin(mixin())
+  },
+}
+
+export default Plugin
