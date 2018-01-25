@@ -6,19 +6,18 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Setup
-1. Install from npm
+1. Download package from npm
 ```bash
 npm i --save @tinajs/tina-loading
 ```
 
-2. Mix into Page & Component
+2. Install into Tina
 ```javascript
 // app.js
-import { Page, Component } from '@tinajs/tina'
+import Tina from '@tinajs/tina'
 import loading from '@tinajs/tina-loading'
 
-Page.mixin(loading())
-Component.mixin(loading())
+Tina.use(loading)
 ```
 
 ## Usage
